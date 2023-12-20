@@ -1,0 +1,457 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: url(image.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+
+h2 {
+    font-size: 5vw;
+    font-weight: 800;
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: 0 5vw 5vw rgb(94, 94, 94);
+    z-index: 50;
+    text-align: center;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+i{
+    position: absolute;
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: inset 0 -0.1vw 0.1vw rgb(114, 114, 114);
+    top: -10px;
+    animation: nieve  linear infinite;
+}
+
+@keyframes nieve{
+    0%{
+        top: -10px;
+    }
+    100%{
+        top: calc(100vh + 50px);
+    }
+}
+
+.in-flex{
+    flex-wrap: wrap;
+    min-width: 300px;
+    padding: 25px;
+    margin : 25px;
+    margin-bottom: 0px;
+}
+
+
+
+.star {
+    position: absolute;
+    top: -1.75vw;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.75vw;
+}
+
+.container {
+    top: 15vw;
+    height: 3.2vw;
+    background-color: green;
+    margin: 0 auto;
+    position: relative;
+    border-top-right-radius: 40%;
+    border-top-left-radius: 40%;
+}
+
+#container1 {
+    width: 4vw;
+    height: 3vw;
+}
+
+#container2 {
+    width: 8vw;
+}
+
+#container3 {
+    width: 12vw;
+}
+
+#container4 {
+    width: 16vw;
+}
+
+#container5 {
+    width: 20vw;
+}
+
+#container6{
+    width: 24vw;
+}
+
+#container7 {
+    width: 28vw;
+}
+
+#container8 {
+    width: 4vw;
+    height: 10vw;
+    background-color: brown;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    margin-bottom: 10vw;
+}
+
+.circle {
+    width: 1vw;
+    height: 1vw;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.circle-1 {
+    top: 50%;
+    left: 15%;
+    background-color: red;
+}
+
+.circle-2 {
+    top: 20%;
+    left: 20%;
+    background-color: red;
+}
+
+.circle-3 {
+    top: 30%;
+    left: 30%;
+    background-color: red;
+}
+
+.circle-4 {
+    top: 40%;
+    left: 40%;
+    background-color: red;
+}
+
+.circle-5 {
+    top: 50%;
+    left: 50%;
+    background-color: red;
+}
+
+.circle-6 {
+    top: 60%;
+    left: 60%;
+    background-color: red;
+}
+
+.circle-7 {
+    top: 15%;
+    left: 70%;
+    background-color: red;
+}
+
+.circle-8 {
+    top: 80%;
+    left: 80%;
+    background-color: red;
+}
+
+.circle-9 {
+    top: 90%;
+    left: 90%;
+    background-color: red;
+}
+
+.circle-10 {
+    top: 20%;
+    left: 90%;
+    background-color: red;
+}
+
+.circle-11 {
+    top: 20%;
+    left: 80%;
+    background-color: red;
+}
+
+.circle-12 {
+    top: 30%;
+    left: 70%;
+    background-color: red;
+}
+
+.circle-13 {
+    top: 40%;
+    left: 60%;
+    background-color: red;
+}
+
+.circle-14 {
+    top: 50%;
+    left: 50%;
+    background-color: red;
+}
+
+.circle-15 {
+    top: 60%;
+    left: 40%;
+    background-color: red;
+}
+
+.circle-16 {
+    top: 80%;
+    left: 65%;
+    background-color: red;
+}
+
+.circle-17 {
+    top: 80%;
+    left: 45%;
+    background-color: red;
+}
+
+.circle-18 {
+    top: 90%;
+    left: 10%;
+    background-color: red;
+}
+
+.circle-19 {
+    top: 50%;
+    left: 90%;
+    background-color: red;
+}
+
+.circle-20 {
+    top: 50%;
+    left: 90%;
+    background-color: red;
+}
+
+.circle-21 {
+    top: 50%;
+    left: 90%;
+    background-color: red;
+}
+
+.circle-22 {
+    top: 60%;
+    left: 75%;
+    background-color: red;
+}
+
+.circle-23 {
+    top: 50%;
+    left: 50%;
+    background-color: red;
+}
+
+.circle-24 {
+    top: 75%;
+    left: 90%;
+    background-color: red;
+}
+
+.circle-25 {
+    top: 15%;
+    left: 95%;
+    background-color: red;
+}
+
+.button {
+    display: inline-block;
+    width: 8vw;
+    height: 3vw;
+    margin: 1vw;
+    border-radius: 5px;
+    cursor: pointer;
+    color: black;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.6vw;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    position: absolute;
+    margin-top: auto;
+    bottom: 1vw;
+    transform: translateX(-50%);
+}
+
+
+
+#button1 {
+    background-color: red;
+    left: 4.5%;
+}
+
+#button2 {
+    background-color: blue;
+    color: white;
+    left: 17%;
+}
+
+#button3 {
+    background-color: yellow;
+    left: 29.5%;
+}
+
+#button4 {
+    background-color: orange;
+    left: 42%;
+}
+
+#button5 {
+    background-color: purple;
+    color: white;
+    left: 54.5%;
+}
+
+#button6 {
+    background-color: rgb(225, 115, 133);
+    left: 67%;
+}
+
+#button7 {
+    background-color: white;
+    left: 79.5%;
+}
+
+#button8 {
+    background-color: grey;
+    left: 92%;
+}
+
+/* Responsiveness */
+@media screen and (max-width: 1000px) {
+    h2{
+        font-size: 8vw;
+        margin-top: 1vw;
+        position: relative;
+    }
+
+    .button{
+        background-color: #fff;
+        border: 0 solid #02060b;
+        border-radius: 1.5rem;
+        box-sizing: border-box;
+        color: #0d172a;
+        cursor: pointer;
+        display: inline-block;
+        font-family: "Basier circle",-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+        font-size: 1rem; /* Aumentar el tamaño de fuente */
+        font-weight: 600;
+        line-height: 1;
+        padding: 1rem 1rem;
+        text-align: center;
+        text-decoration: none #0d172a solid;
+        text-decoration-thickness: auto;
+        transition: all .1s cubic-bezier(.4, 0, .2, 1);
+        box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.809);
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        width: 10vw; /* Aumentar el tamaño de los botones */
+        height: 8vw; /* Aumentar el tamaño de los botones */
+        bottom: 20vw;
+        left: 50%;
+        transform: translateX(-50%);
+        position: absolute;
+
+    }
+
+    .button:hover{
+        background-color: #1e293b;
+        color: #fff;
+    }
+
+
+
+
+
+
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container{
+        top: 30vw;
+        height: 10vw;
+        background: linear-gradient(rgb(32, 124, 32), rgb(4, 69, 4));
+        margin: 0 auto;
+        position: relative;
+        border-top-right-radius: 20%;
+        border-top-left-radius: 20%;
+    }
+
+    #container1 {
+        width: 8vw;
+        height: 6vw;
+    }
+    
+    #container2 {
+        width: 16vw;
+    }
+    
+    #container3 {
+        width: 24vw;
+    }
+    
+    #container4 {
+        width: 32vw;
+    }
+    
+    #container5 {
+        width: 40vw;
+    }
+    
+    #container6{
+        width: 48vw;
+    }
+    
+    #container7 {
+        width: 56vw;
+        border-bottom-right-radius: 20%;
+        border-bottom-left-radius: 20%;
+    }
+
+    #container8 {
+        width: 8vw;
+        height: 20vw;
+        background-image: linear-gradient(to bottom, #8B4513, #A0522D);
+        border-top-right-radius: 0;
+        border-top-left-radius: 0;
+        margin-bottom: 20vw;
+    }
+
+    .star{
+        font-size: 8vw;
+        top: -8vw;
+    }
+
+    .circle {
+        width: 2vw;
+        height: 2vw;
+    }
+
+}
